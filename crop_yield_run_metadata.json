@@ -1,0 +1,43 @@
+{
+  "python_version": "3.13.5",
+  "pandas_version": "2.2.3",
+  "numpy_version": "2.3.5",
+  "scikit_learn_version": "1.8.0",
+  "random_state": 42,
+  "dataset_file": "crop_yield.csv",
+  "dataset_sha256": "ab9bc356b1f8107d490376cec24450a0e2906322ad25788ab22fb32537ab1f8f",
+  "rows_after_cleaning": 19689,
+  "columns": [
+    "Crop",
+    "Crop_Year",
+    "Season",
+    "State",
+    "Area",
+    "Production",
+    "Annual_Rainfall",
+    "Fertilizer",
+    "Pesticide",
+    "Yield"
+  ],
+  "year_min": 1997,
+  "year_max": 2020,
+  "train_end_year": 2015,
+  "train_rows": 15404,
+  "test_rows": 4285,
+  "features": [
+    "Area",
+    "Annual_Rainfall",
+    "Fertilizer",
+    "Pesticide",
+    "Crop",
+    "Season",
+    "State"
+  ],
+  "target": "Yield",
+  "model_selected_by_temporal_cv": "Tuned Decision Tree",
+  "dataset_source": "Kaggle",
+  "dataset_title": "Agricultural Crop Yield in Indian States Dataset",
+  "dataset_publisher": "akshatgupta7",
+  "dataset_url": "https://www.kaggle.com/datasets/akshatgupta7/crop-yield-in-indian-states-dataset",
+  "dataset_license": "Check Kaggle dataset page; not asserted from CSV metadata"
+}
